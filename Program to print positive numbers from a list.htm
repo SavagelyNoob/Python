@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[7]:
+
+
+#Program to print positive numbers from a list
+
+
+n=input("Enter Numbers: ")
+list=n.split(",")
+print(list)
+for i in range(0,len(list)):
+    if(int(list[i])>0):
+        print(list[i])
+        
+#OUTPUT
+
+#List 1
+#Enter Numbers: 12,-7,5,64,-14
+#['12', '-7', '5', '64', '-14']
+#12
+#5
+#64
+
+#List 2
+#Enter Numbers: 12,14,-95,3
+#['12', '14', '-95', '3']
+#12
+#14
+#3
+
+
+# In[ ]:
+
+
+
+
